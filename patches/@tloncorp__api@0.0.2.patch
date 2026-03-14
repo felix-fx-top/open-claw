@@ -1,0 +1,22 @@
+diff --git a/src/api/channelContentConfig.ts b/src/api/channelContentConfig.ts
+index db04389912b806c2205a9a7810b0e8dccd3f42fe..e03f2fc3554e9aef3d31f3093819e878892bef99 100644
+--- a/src/api/channelContentConfig.ts
++++ b/src/api/channelContentConfig.ts
+@@ -75,7 +75,7 @@ export const allCollectionRenderers = {
+             displayName: 'Vertical',
+             value: 'vertical',
+           },
+-        ],
++        ] as { displayName: string; value: string }[],
+       },
+     },
+   },
+@@ -170,7 +170,7 @@ export const allContentRenderers = {
+             displayName: 'Small',
+             value: '$s',
+           },
+-        ],
++        ] as { displayName: string; value: string }[],
+       },
+     },
+   },

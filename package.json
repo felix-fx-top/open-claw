@@ -466,6 +466,9 @@
           "strip-ansi": "^7.2.0"
         }
       }
+    },
+    "patchedDependencies": {
+      "@tloncorp/api@0.0.2": "patches/@tloncorp__api@0.0.2.patch"
     }
   }
 }
